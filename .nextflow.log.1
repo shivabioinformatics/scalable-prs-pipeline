@@ -1,0 +1,45 @@
+Apr-05 21:29:41.562 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local
+Apr-05 21:29:41.620 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
+Apr-05 21:29:41.642 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/labuser3/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
+Apr-05 21:29:41.661 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Apr-05 21:29:41.661 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Apr-05 21:29:41.664 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Apr-05 21:29:41.674 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Apr-05 21:29:41.696 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
+Apr-05 21:29:41.699 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
+Apr-05 21:29:41.726 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/labuser3/.nextflow/secrets/store.json
+Apr-05 21:29:41.728 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@43d455c9] - activable => nextflow.secret.LocalSecretsProvider@43d455c9
+Apr-05 21:29:41.733 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Apr-05 21:29:42.217 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [aws_batch, local, docker]
+Apr-05 21:29:42.242 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Apr-05 21:29:42.255 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [compassionate_swartz] DSL2 - revision: 96653ac887
+Apr-05 21:29:42.256 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Apr-05 21:29:42.256 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Apr-05 21:29:42.299 [main] DEBUG nextflow.Session - Session UUID: 848ece9e-768f-4623-aa08-8bd42b15defb
+Apr-05 21:29:42.299 [main] DEBUG nextflow.Session - Run name: compassionate_swartz
+Apr-05 21:29:42.300 [main] DEBUG nextflow.Session - Executor pool size: 8
+Apr-05 21:29:42.308 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Apr-05 21:29:42.312 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-05 21:29:42.407 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.5 build 5935
+  Created: 04-03-2025 17:55 UTC (09:55 PDT)
+  System: Mac OS X 26.3.1
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.14+0
+  Encoding: UTF-8 (UTF-8)
+  Process: 28070@ns-sb347-b03 [192.168.0.182]
+  CPUs: 8 - Mem: 16 GB (78 MB) - Swap: 2 GB (1.4 GB)
+Apr-05 21:29:42.425 [main] DEBUG nextflow.Session - Work-dir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work [Mac OS X]
+Apr-05 21:29:42.444 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Apr-05 21:29:42.451 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Apr-05 21:29:42.475 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Apr-05 21:29:42.484 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Apr-05 21:29:42.535 [main] DEBUG nextflow.Session - Session start
+Apr-05 21:29:42.541 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Report file already exists: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/results/pipeline_report.html -- enable the 'report.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.ReportObserver.onFlowCreate(ReportObserver.groovy:133)
+	at nextflow.Session.notifyFlowCreate(Session.groovy:1123)
+	at nextflow.Session.start(Session.groovy:566)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:132)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)

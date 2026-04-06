@@ -1,0 +1,8 @@
+Imputing missing genotypes...
+Reference panel: reference_panel.vcf
+Note: In production, this runs Beagle with a 1000 Genomes reference panel
+Imputed 184 missing calls across      367 variant sites
+
+Production workflow:
+  1. java -jar beagle.jar gt=<input> ref=<panel> out=<output>
+  2. Filter: bcftools filter -i 'INFO/DR2 > 0.3' <output>

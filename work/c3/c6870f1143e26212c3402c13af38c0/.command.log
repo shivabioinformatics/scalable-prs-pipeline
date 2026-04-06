@@ -1,0 +1,33 @@
+============================================================
+Storing PRS Results in Database
+  Run ID: RUN_20260405_213000
+  Database: prs_results.db
+============================================================
+  Schema created: 3 tables + 4 indexes
+  Inserted 20 scores into 'samples'
+  Inserted 500 variants into 'variants'
+  Inserted 20 QC records into 'qc_metrics'
+
+  --- Example Queries ---
+
+  Risk distribution:
+    AVERAGE: 12 patients
+    ELEVATED: 3 patients
+    HIGH_RISK: 2 patients
+    LOW_RISK: 3 patients
+
+  Top 5 highest risk:
+    PATIENT_004: z=1.89, pctile=100
+    PATIENT_001: z=1.78, pctile=95
+    PATIENT_018: z=1.04, pctile=90
+    PATIENT_002: z=0.93, pctile=85
+    PATIENT_003: z=0.66, pctile=80
+
+  Most significant variants:
+    rs100356 (chr2): beta=0.1211, p=2.15e-06
+    rs100231 (chr20): beta=0.0818, p=2.21e-05
+    rs100091 (chr7): beta=0.2750, p=2.56e-05
+    rs100376 (chr14): beta=0.1341, p=2.90e-05
+    rs100361 (chr22): beta=0.1594, p=3.26e-05
+
+Done! Database: prs_results.db

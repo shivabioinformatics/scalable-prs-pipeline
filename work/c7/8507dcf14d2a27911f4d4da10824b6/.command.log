@@ -1,0 +1,6 @@
+Normalizing VCF to hg38...
+Chain file: chain_file.chain
+Normalization complete
+Note: In production, this step would run:
+  1. CrossMap.py vcf <chain> <input> <ref.fa> <output>
+  2. bcftools norm -f <ref.fa> -m -both <input> > <output>

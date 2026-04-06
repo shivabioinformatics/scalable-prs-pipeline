@@ -26,7 +26,7 @@ process STORE_RESULTS {
 
     script:
     """
-    python3 ${projectDir}/bin/store_results.py \\
+    python3 "${projectDir}/bin/store_results.py" \\
         --scores ${prs_scores} \\
         --gwas ${gwas_stats} \\
         --qc-stats ${qc_stats} \\

@@ -27,7 +27,7 @@ process CALCULATE_PRS {
 
     script:
     """
-    python3 ${projectDir}/bin/calculate_prs.py \\
+    python3 "${projectDir}/bin/calculate_prs.py" \\
         --vcf ${vcf} \\
         --gwas ${gwas_stats} \\
         --output prs_scores.tsv \\

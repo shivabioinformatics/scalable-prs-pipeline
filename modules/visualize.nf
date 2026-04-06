@@ -26,7 +26,7 @@ process VISUALIZE_PRS {
 
     script:
     """
-    python3 ${projectDir}/bin/visualize_prs.py \\
+    python3 "${projectDir}/bin/visualize_prs.py" \\
         --scores ${prs_scores} \\
         --qc-stats ${qc_stats} \\
         --gwas ${gwas_stats} \\

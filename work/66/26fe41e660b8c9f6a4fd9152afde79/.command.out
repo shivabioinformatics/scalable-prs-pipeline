@@ -1,0 +1,11 @@
+QC Filter — reading sample_input.vcf
+  Thresholds: call_rate >= 0.95, MAF >= 0.01, depth >= 10.0
+
+Results:
+  500 total variants
+  367 passed QC (73.4%)
+  133 dropped (call rate)
+  0 dropped (MAF)
+  0 dropped (depth)
+  Filtered VCF: filtered.vcf
+  QC stats: qc_stats.tsv

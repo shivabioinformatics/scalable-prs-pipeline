@@ -31,7 +31,7 @@ process QC_VCF {
      * it also checks per-sample call rate and flags bad samples
      */
     """
-    python3 ${projectDir}/bin/qc_filter.py \\
+    python3 "${projectDir}/bin/qc_filter.py" \\
         --vcf ${vcf} \\
         --out-vcf filtered.vcf \\
         --out-stats qc_stats.tsv \\

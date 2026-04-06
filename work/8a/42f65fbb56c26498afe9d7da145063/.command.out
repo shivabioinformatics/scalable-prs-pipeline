@@ -1,0 +1,14 @@
+============================================================
+Generating PRS Visualizations
+============================================================
+
+Loaded: 20 samples, 20 QC records, 500 variants
+Output dir: .
+
+  [OK] ./01_qc_summary.png
+  [OK] ./02_prs_distribution.png
+  [OK] ./03_risk_stratification.png
+  [OK] ./04_variant_effects.png
+  [OK] ./05_score_comparison.png
+
+All 5 figures saved to .

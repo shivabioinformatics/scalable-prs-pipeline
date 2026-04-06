@@ -1,0 +1,23 @@
+============================================================
+Polygenic Risk Score Calculation
+============================================================
+
+1. Loading GWAS summary statistics (p < 0.05)...
+  GWAS stats: 500 total, 69 pass p < 0.05, 431 filtered out
+
+2. Parsing VCF genotypes from imputed.vcf...
+  20 samples, 367 variants
+
+3. Computing PRS (weighted sum)...
+  Variants in VCF: 367
+  Variants in GWAS (post-filter): 69
+  Overlapping variants: 45
+
+4. Writing results to prs_scores.tsv...
+
+  PRS Results Summary:
+    Mean PRS: 0.485765
+    Std PRS:  0.456644
+    Range:    [-0.630299, 1.347180]
+
+Done! Scores written to prs_scores.tsv
