@@ -1,45 +1,130 @@
-Apr-05 21:29:41.562 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local
-Apr-05 21:29:41.620 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
-Apr-05 21:29:41.642 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/labuser3/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
-Apr-05 21:29:41.661 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Apr-05 21:29:41.661 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Apr-05 21:29:41.664 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
-Apr-05 21:29:41.674 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Apr-05 21:29:41.696 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
-Apr-05 21:29:41.699 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
-Apr-05 21:29:41.726 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/labuser3/.nextflow/secrets/store.json
-Apr-05 21:29:41.728 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@43d455c9] - activable => nextflow.secret.LocalSecretsProvider@43d455c9
-Apr-05 21:29:41.733 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
-Apr-05 21:29:42.217 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [aws_batch, local, docker]
-Apr-05 21:29:42.242 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Apr-05 21:29:42.255 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [compassionate_swartz] DSL2 - revision: 96653ac887
-Apr-05 21:29:42.256 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Apr-05 21:29:42.256 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Apr-05 21:29:42.299 [main] DEBUG nextflow.Session - Session UUID: 848ece9e-768f-4623-aa08-8bd42b15defb
-Apr-05 21:29:42.299 [main] DEBUG nextflow.Session - Run name: compassionate_swartz
-Apr-05 21:29:42.300 [main] DEBUG nextflow.Session - Executor pool size: 8
-Apr-05 21:29:42.308 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Apr-05 21:29:42.312 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Apr-05 21:29:42.407 [main] DEBUG nextflow.cli.CmdRun - 
+Apr-05 21:29:57.995 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local
+Apr-05 21:29:58.057 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
+Apr-05 21:29:58.073 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/labuser3/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
+Apr-05 21:29:58.090 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Apr-05 21:29:58.091 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Apr-05 21:29:58.094 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Apr-05 21:29:58.101 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Apr-05 21:29:58.118 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
+Apr-05 21:29:58.120 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/nextflow.config
+Apr-05 21:29:58.147 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/labuser3/.nextflow/secrets/store.json
+Apr-05 21:29:58.150 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3569edd5] - activable => nextflow.secret.LocalSecretsProvider@3569edd5
+Apr-05 21:29:58.154 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Apr-05 21:29:58.550 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [aws_batch, local, docker]
+Apr-05 21:29:58.573 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Apr-05 21:29:58.585 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [dreamy_magritte] DSL2 - revision: 96653ac887
+Apr-05 21:29:58.586 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Apr-05 21:29:58.586 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Apr-05 21:29:58.633 [main] DEBUG nextflow.Session - Session UUID: 45c7eac7-0508-4973-b4dd-c21ea4c05f20
+Apr-05 21:29:58.633 [main] DEBUG nextflow.Session - Run name: dreamy_magritte
+Apr-05 21:29:58.633 [main] DEBUG nextflow.Session - Executor pool size: 8
+Apr-05 21:29:58.641 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Apr-05 21:29:58.645 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-05 21:29:58.670 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.10.5 build 5935
   Created: 04-03-2025 17:55 UTC (09:55 PDT)
   System: Mac OS X 26.3.1
   Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.14+0
   Encoding: UTF-8 (UTF-8)
-  Process: 28070@ns-sb347-b03 [192.168.0.182]
-  CPUs: 8 - Mem: 16 GB (78 MB) - Swap: 2 GB (1.4 GB)
-Apr-05 21:29:42.425 [main] DEBUG nextflow.Session - Work-dir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work [Mac OS X]
-Apr-05 21:29:42.444 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Apr-05 21:29:42.451 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Apr-05 21:29:42.475 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Apr-05 21:29:42.484 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
-Apr-05 21:29:42.535 [main] DEBUG nextflow.Session - Session start
-Apr-05 21:29:42.541 [main] DEBUG nextflow.cli.Launcher - Operation aborted
-nextflow.exception.AbortOperationException: Report file already exists: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/results/pipeline_report.html -- enable the 'report.overwrite' option in your config file to overwrite existing files
-	at nextflow.trace.ReportObserver.onFlowCreate(ReportObserver.groovy:133)
-	at nextflow.Session.notifyFlowCreate(Session.groovy:1123)
-	at nextflow.Session.start(Session.groovy:566)
-	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:132)
-	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
-	at nextflow.cli.Launcher.run(Launcher.groovy:503)
-	at nextflow.cli.Launcher.main(Launcher.groovy:658)
+  Process: 28101@ns-sb347-b03 [192.168.0.182]
+  CPUs: 8 - Mem: 16 GB (64.1 MB) - Swap: 2 GB (1.4 GB)
+Apr-05 21:29:58.694 [main] DEBUG nextflow.Session - Work-dir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work [Mac OS X]
+Apr-05 21:29:58.713 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Apr-05 21:29:58.719 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Apr-05 21:29:58.745 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Apr-05 21:29:58.752 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Apr-05 21:29:58.811 [main] DEBUG nextflow.Session - Session start
+Apr-05 21:29:58.950 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-05 21:29:59.426 [main] INFO  nextflow.Nextflow - 
+============================================================
+  POLYGENIC RISK SCORE (PRS) PIPELINE
+============================================================
+  Input VCF       : /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/data/sample_input.vcf
+  GWAS Stats      : /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/data/gwas_summary_stats.tsv
+  Reference Panel : /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/data/reference_panel.vcf
+  Chain File      : /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/data/chain_file.chain
+  Output Dir      : /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/results
+  P-value Cutoff  : 0.05
+  Min Call Rate   : 0.95
+  Min MAF         : 0.01
+  Genome Build    : hg38
+============================================================
+
+Apr-05 21:29:59.507 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:QC_VCF` matches process PRS_WORKFLOW:QC_VCF
+Apr-05 21:29:59.517 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.517 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.521 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Apr-05 21:29:59.526 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Apr-05 21:29:59.528 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Apr-05 21:29:59.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:NORMALIZE_VCF` matches process PRS_WORKFLOW:NORMALIZE_VCF
+Apr-05 21:29:59.579 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.579 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.583 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:IMPUTE_GENOTYPES` matches process PRS_WORKFLOW:IMPUTE_GENOTYPES
+Apr-05 21:29:59.584 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.585 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.589 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CALCULATE_PRS` matches process PRS_WORKFLOW:CALCULATE_PRS
+Apr-05 21:29:59.590 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.590 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.595 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:STORE_RESULTS` matches process PRS_WORKFLOW:STORE_RESULTS
+Apr-05 21:29:59.596 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.596 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.603 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:VISUALIZE_PRS` matches process PRS_WORKFLOW:VISUALIZE_PRS
+Apr-05 21:29:59.604 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Apr-05 21:29:59.604 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-05 21:29:59.608 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: CALCULATE_PRS, PRS_WORKFLOW:VISUALIZE_PRS, NORMALIZE_VCF, VISUALIZE_PRS, IMPUTE_GENOTYPES, PRS_WORKFLOW:QC_VCF, PRS_WORKFLOW:NORMALIZE_VCF, PRS_WORKFLOW:IMPUTE_GENOTYPES, PRS_WORKFLOW:CALCULATE_PRS, QC_VCF, PRS_WORKFLOW:STORE_RESULTS, STORE_RESULTS
+Apr-05 21:29:59.609 [main] DEBUG nextflow.Session - Igniting dataflow network (10)
+Apr-05 21:29:59.615 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:QC_VCF
+Apr-05 21:29:59.615 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:NORMALIZE_VCF
+Apr-05 21:29:59.616 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:IMPUTE_GENOTYPES
+Apr-05 21:29:59.616 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:CALCULATE_PRS
+Apr-05 21:29:59.616 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:STORE_RESULTS
+Apr-05 21:29:59.616 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRS_WORKFLOW:VISUALIZE_PRS
+Apr-05 21:29:59.617 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_47801d1171ec47e1: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./modules/qc.nf
+  Script_31c6f0497143a032: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/main.nf
+  Script_bdc39eb0a4b785f3: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./subworkflows/../modules/normalize.nf
+  Script_08347a16741a1c77: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./subworkflows/../modules/score.nf
+  Script_a532dad17bfe4619: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./subworkflows/prs_workflow.nf
+  Script_320e30be608f278f: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./modules/database.nf
+  Script_ce4a815d07d553be: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./subworkflows/../modules/impute.nf
+  Script_f985f82ea6a82511: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/./subworkflows/../modules/visualize.nf
+Apr-05 21:29:59.617 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Apr-05 21:29:59.617 [main] DEBUG nextflow.Session - Session await
+Apr-05 21:29:59.725 [Task submitter] WARN  n.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+Apr-05 21:29:59.840 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:29:59.842 [Task submitter] INFO  nextflow.Session - [66/26fe41] Submitted process > PRS_WORKFLOW:QC_VCF (QC)
+Apr-05 21:30:00.366 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: PRS_WORKFLOW:QC_VCF (QC); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/66/26fe41e660b8c9f6a4fd9152afde79]
+Apr-05 21:30:00.367 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-05 21:30:00.389 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-05 21:30:00.392 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:30:00.393 [Task submitter] INFO  nextflow.Session - [c7/8507dc] Submitted process > PRS_WORKFLOW:NORMALIZE_VCF (Normalize)
+Apr-05 21:30:00.502 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PRS_WORKFLOW:NORMALIZE_VCF (Normalize); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/c7/8507dcf14d2a27911f4d4da10824b6]
+Apr-05 21:30:00.516 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:30:00.517 [Task submitter] INFO  nextflow.Session - [09/a4cd23] Submitted process > PRS_WORKFLOW:IMPUTE_GENOTYPES (Impute)
+Apr-05 21:30:00.619 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: PRS_WORKFLOW:IMPUTE_GENOTYPES (Impute); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/09/a4cd23f8be8a6c5ceeebdffdd83787]
+Apr-05 21:30:00.640 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:30:00.640 [Task submitter] INFO  nextflow.Session - [d0/dc0386] Submitted process > PRS_WORKFLOW:CALCULATE_PRS (Score)
+Apr-05 21:30:00.775 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: PRS_WORKFLOW:CALCULATE_PRS (Score); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/d0/dc0386531ce33944fc9574acd3467d]
+Apr-05 21:30:00.790 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:30:00.790 [Task submitter] INFO  nextflow.Session - [c3/c6870f] Submitted process > PRS_WORKFLOW:STORE_RESULTS (Database)
+Apr-05 21:30:00.801 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-05 21:30:00.801 [Task submitter] INFO  nextflow.Session - [8a/42f65f] Submitted process > PRS_WORKFLOW:VISUALIZE_PRS (Visualize)
+Apr-05 21:30:00.992 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: PRS_WORKFLOW:STORE_RESULTS (Database); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/c3/c6870f1143e26212c3402c13af38c0]
+Apr-05 21:30:08.174 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: PRS_WORKFLOW:VISUALIZE_PRS (Visualize); status: COMPLETED; exit: 0; error: -; workDir: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/work/8a/42f65fbb56c26498afe9d7da145063]
+Apr-05 21:30:08.200 [main] DEBUG nextflow.Session - Session await > all processes finished
+Apr-05 21:30:08.278 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Apr-05 21:30:08.278 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-05 21:30:08.280 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Apr-05 21:30:08.280 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Apr-05 21:30:08.282 [main] INFO  nextflow.Nextflow - 
+============================================================
+Pipeline Complete!
+Results are in: /Users/labuser3/Documents/BINFX410-Note/homework/Final Project/prs_pipeline/results
+============================================================
+
+Apr-05 21:30:08.284 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=6; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=18s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=8; peakMemory=16 GB; ]
+Apr-05 21:30:08.285 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Apr-05 21:30:09.182 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Apr-05 21:30:09.452 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Apr-05 21:30:09.485 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Apr-05 21:30:09.485 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
